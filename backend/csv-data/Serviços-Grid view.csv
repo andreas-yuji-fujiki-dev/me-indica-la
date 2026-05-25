@@ -1,0 +1,2246 @@
+﻿Nome do Serviço,Notes,Categorias,Ativo?,Solicitações,Mais procurado?,Destaque,Contador,Prestadores,Validade plano
+"
+Academia
+","
+Espaços para musculação, exercícios físicos, aulas coletivas, condicionamento e saúde.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,Paulo,
+"
+Academia Terapêutica
+","
+Atividades físicas acompanhadas com foco em saúde, reabilitação, mobilidade e qualidade de vida.
+","""
+Saúde e bem-estar
+""",checked,,,,,Ricardo,
+"
+Açaí e Sorvetes
+","
+Venda de açaí, sorvetes, milk-shakes, picolés e sobremesas geladas.
+","""
+Gastronomia
+""",checked,,,,,Marta,
+"
+Acessórios
+","
+Venda de bolsas, cintos, bijuterias, relógios, semijoias e itens complementares de moda.
+","""
+Comércio Local
+""",checked,,,,,José,
+"
+Ações Sociais
+","
+Projetos, campanhas e iniciativas de apoio comunitário, doações e assistência social.
+","""
+Religião, Comunidade e Ações Sociais
+""",checked,,,,,Alexandre,
+"
+Adestramento
+","
+Treinamento comportamental, obediência e correção de hábitos dos animais.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,Pedro,
+"
+Administração de Aluguéis
+","
+Gestão de contratos, cobranças, vistorias e relacionamento entre proprietário e inquilino.
+","""
+Imóveis e Moradia
+""",checked,,,,,Daniel,
+"
+Adubos, Insumos e Biológicos
+","
+Venda de fertilizantes, defensivos, adjuvantes, sementes, produtos biológicos e insumos para lavouras.
+","""
+Agronegócios
+""",checked,,,,,TIago,
+"
+Agência de Marketing
+","
+Planejamento, campanhas, posicionamento, gestão de marca e ações para divulgação de negócios.
+","""
+Marketing e Mídia
+""",checked,,,,,Maria,
+"
+Agência de Viagens
+","
+Pacotes, passagens, hospedagens, roteiros, excursões e planejamento de viagens.
+","""
+Turismo e Experiências
+""",checked,,,,,João,
+"
+Agricultura de Precisão
+","
+Mapeamento, taxa variável, piloto automático, telemetria, sensores e tecnologia para aumentar a eficiência no campo.
+","""
+Agronegócios
+""",checked,,,,,Gustavo,
+"
+Alarmes
+","
+Sistemas de alarme, sensores, sirenes, centrais e monitoramento de imóveis.
+","""
+Segurança e Monitoramento
+""",checked,,,,,"Rafael,Weslley",
+"
+Alinhamento e Balanceamento
+","
+Serviços de alinhamento, balanceamento, suspensão, cambagem e manutenção preventiva.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Aluguel de Imóveis
+","
+Intermediação e divulgação de casas, apartamentos, salas, galpões, lotes e imóveis rurais para locação.
+","""
+Imóveis e Moradia
+""",checked,,,,,Chico,
+"
+Aluguel de Mesas e Cadeiras
+","
+Locação de mesas, cadeiras, toalhas, móveis, utensílios e estruturas para eventos.
+","""
+Festas e Eventos
+""",checked,,,,,Sebastião,
+"
+Aluguel de Veículos
+","
+Locação de carros, caminhonetes, vans e veículos para uso pessoal, empresarial ou turístico.
+","""
+Serviços para Veículos
+""",checked,,,,,Euzemario,
+"
+Análise de Solo
+","
+Coleta, envio e interpretação de análises para correção, adubação e melhoria da fertilidade do solo.
+","""
+Agronegócios
+""",checked,,,,,Deuzeli,
+"
+Animadores
+","
+Recreadores, personagens, monitores e atrações para festas infantis e eventos.
+","""
+Festas e Eventos
+""",checked,,,,,Ubiratan,
+"
+Aplicativos
+","
+Desenvolvimento, configuração ou suporte para aplicativos móveis e soluções digitais.
+","""
+Tecnologia
+""",checked,,,,,Reinaldo,
+"
+Ar Condicionado
+","
+Venda, instalação, manutenção, limpeza e reparo de aparelhos de ar-condicionado.
+","""
+Serviços Técnicos
+""",checked,,,,,Gustavo,
+"
+Arquitetura
+","
+Projetos arquitetônicos, acompanhamento de obras, regularização, reformas e planejamento de espaços.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,Mariana,
+"
+Artes Marciais
+","
+Aulas de luta, defesa pessoal, jiu-jitsu, judô, muay thai, karatê e modalidades similares.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,Rafael,
+"
+Assessoria de Imprensa
+","
+Divulgação de empresas, eventos, autoridades, marcas e ações junto à mídia.
+","""
+Marketing e Mídia
+""",checked,,,,,Weslley,
+"
+Assistência Técnica em Eletrodomésticos
+","
+Conserto e manutenção de geladeiras, máquinas de lavar, fogões, micro-ondas e equipamentos domésticos.
+","""
+Serviços Técnicos
+""",checked,,,,,Chico,
+"
+Assistência Técnica em Eletrônicos
+","
+Reparo de televisores, aparelhos de som, controles, placas, eletrônicos e equipamentos diversos.
+","""
+Serviços Técnicos
+""",checked,,,,,Sebastião,
+"
+Assistência Técnica Rural
+","
+Acompanhamento técnico para lavouras, pecuária, propriedades rurais e tomada de decisão no campo.
+","""
+Agronegócios
+""",checked,,,,,Euzemario,
+"
+Associações Comerciais
+","
+Entidades de apoio ao comércio, empresários, empreendedores e desenvolvimento local.
+","""
+Serviços Públicos, Associações e Entidades
+""",checked,,,,,Deuzeli,
+"
+Associações Comunitárias
+","
+Organizações locais voltadas à representação, apoio e desenvolvimento de bairros ou grupos.
+","""
+Religião, Comunidade e Ações Sociais
+""",checked,,,,,Ubiratan,
+"
+Aulas de Dança
+","
+Aulas de dança de salão, ritmos, ballet, sertanejo, dança fitness e outras modalidades.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Aulas Particulares
+","
+Reforço escolar, acompanhamento individual e preparação para provas e atividades acadêmicas.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Auto Elétrica Agrícola
+","
+Manutenção elétrica em máquinas agrícolas, tratores, colheitadeiras, pulverizadores e implementos.
+","""
+Agronegócios
+""",checked,,,,,"ENERGY SOLUÇÕES SOLAR,Pedro Atílio,Ricardo",
+"
+Auto Elétrica Leve
+","
+Manutenção elétrica em carros, motos, caminhonetes, baterias, alternadores, arranques e sistemas automotivos.
+","""
+Serviços para Veículos
+""",checked,,,,,Duilio,
+"
+Autoescola
+","
+Formação de condutores, renovação de CNH, aulas práticas, aulas teóricas e processos de habilitação.
+","""
+Educação e Cultura
+""",checked,,,,,Adriel,
+"
+Automação Comercial
+","
+Sistemas para lojas, restaurantes, mercados, emissão fiscal, estoque e atendimento.
+","""
+Tecnologia
+""",checked,,,,,Lucio,
+"
+Automação Elétrica Industrial
+","
+Automação de máquinas, painéis, comandos elétricos, sensores e processos industriais.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,Euripedes,
+"
+Autopeças
+","
+Venda de peças, acessórios e componentes para veículos leves, pesados e agrícolas.
+","""
+Serviços para Veículos
+""",checked,,,,,Jose Mota,
+"
+Avaliação Imobiliária
+","
+Avaliação de preço, laudos e estimativas para venda, compra, garantia ou financiamento.
+","""
+Imóveis e Moradia
+""",checked,,,,,Ze do Fole,
+"
+Backup e Recuperação de Dados
+","
+Recuperação de arquivos, HDs, notebooks, servidores e soluções de backup.
+","""
+Tecnologia
+""",checked,,,,,Leonardo,
+"
+Bancos e Correspondentes Bancários
+","
+Atendimento financeiro, contas, empréstimos, pagamentos e serviços bancários.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,Chinelinho,
+"
+Bandas e Músicos
+","
+Apresentações musicais para festas, cerimônias, bares, eventos corporativos e celebrações.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Banho e Tosa
+","
+Higiene, banho, tosa, hidratação e cuidados estéticos para pets.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Bares
+","
+Estabelecimentos com bebidas, petiscos, música, encontros e opções de lazer gastronômico.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Bartender
+","
+Drinks, coquetéis, bar móvel e atendimento especializado para festas e eventos.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Bolos e Doces
+","
+Produção de bolos, doces personalizados, sobremesas e lembranças comestíveis.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Borracharia
+","
+Troca, conserto e calibragem de pneus para carros, motos, caminhonetes, caminhões e máquinas.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Brinquedos
+","
+Lojas de brinquedos, jogos, presentes infantis e artigos para crianças.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Brinquedos Infláveis
+","
+Locação de brinquedos, pula-pula, cama elástica, touro mecânico e recreação infantil.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Buffet
+","
+Serviço de alimentação, cardápios, montagem e atendimento para festas e eventos.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Cafeterias
+","
+Cafés especiais, doces, salgados, encontros e ambientes para trabalho ou lazer.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Calçados
+","
+Venda de botas, tênis, sandálias, chinelos, sapatos e acessórios para calçados.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Caldeiraria
+","
+Fabricação e manutenção de estruturas metálicas, tanques, tubulações e peças industriais.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Calhas e Rufos
+","
+Instalação e manutenção de calhas, rufos, condutores e soluções para telhados.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Câmeras e Monitoramento Online
+","
+Instalação e configuração de câmeras conectadas, acesso remoto e gravação em nuvem.
+","""
+Tecnologia
+""",checked,,,,,,
+"
+Campanhas Solidárias
+","
+Mobilizações para arrecadação, apoio emergencial, doações e causas sociais.
+","""
+Religião, Comunidade e Ações Sociais
+""",checked,,,,,,
+"
+Carretos
+","
+Serviços rápidos de transporte com caminhonetes, caminhões pequenos ou utilitários.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Celulares e Informática
+","
+Conserto de celulares, computadores, notebooks, formatação, manutenção e venda de acessórios.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Cerca Elétrica
+","
+Instalação e manutenção de cercas elétricas para residências, empresas e propriedades.
+","""
+Segurança e Monitoramento
+""",checked,,,,,,
+"
+Cercas, Currais e Estruturas Rurais
+","
+Construção e manutenção de cercas, currais, porteiras, barracões e estruturas para propriedades rurais.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Cerimonialista
+","
+Organização, planejamento e condução de casamentos, formaturas, aniversários e eventos.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Chácaras e Fazendas à Venda
+","
+Anúncios e intermediação de imóveis rurais, chácaras, sítios e fazendas.
+","""
+Imóveis e Moradia
+""",checked,,,,,,
+"
+Chaveiro
+","
+Cópias de chaves, abertura de portas, troca de fechaduras e atendimento emergencial.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Churrascarias
+","
+Restaurantes especializados em carnes, churrasco, rodízio ou pratos executivos.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Churrasqueiro
+","
+Profissional para preparo e serviço de churrasco em festas, eventos e confraternizações.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Ciclismo
+","
+Grupos, lojas, oficinas, acessórios e serviços relacionados à prática de ciclismo.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Clínica Veterinária
+","
+Consultas, vacinas, exames, cirurgias e atendimento veterinário para animais de companhia.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Clínicas de Imagem
+","
+Raio-X, ultrassom, tomografia, ressonância e exames de diagnóstico por imagem.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Clubes
+","
+Clubes sociais, recreativos, esportivos e espaços com estrutura de lazer para associados e visitantes.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Combustível
+","
+Postos de combustíveis, troca de óleo, conveniência e serviços rápidos para veículos.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Comida Fitness e Saudável
+","
+Refeições equilibradas, marmitas fitness, alimentação natural e opções saudáveis.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Comida Japonesa
+","
+Sushis, sashimis, temakis, pratos orientais e opções de culinária japonesa.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Compra e Venda de Gado
+","
+Intermediação, comercialização e apoio na compra e venda de bovinos e outros animais.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Comunicação via Rádio
+","
+Instalação, venda e manutenção de rádios comunicadores, antenas e sistemas de comunicação.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Comunicação Visual
+","
+Fachadas, placas, adesivos, banners, sinalização, plotagens e materiais visuais para empresas.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Conselhos e Entidades de Classe
+","
+Organizações representativas de categorias profissionais, conselhos e entidades reguladoras.
+","""
+Serviços Públicos, Associações e Entidades
+""",checked,,,,,,
+"
+Consórcios
+","
+Planos de consórcio para veículos, imóveis, máquinas, serviços e bens diversos.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Consórcios e Financiamentos
+","
+Soluções de crédito, consórcios e financiamentos para pessoas, empresas e produtores.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Construtoras
+","
+Empresas responsáveis por obras residenciais, comerciais, industriais e rurais.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Consultoria Agronômica
+","
+Orientação técnica para planejamento, manejo, produtividade, fertilidade, pragas, doenças e culturas agrícolas.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Consultoria de Amamentação
+","
+Apoio para mães no aleitamento, pega correta, ordenha, dificuldades e cuidados com o bebê.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Consultoria de Enfermagem
+","
+Orientação e cuidados de enfermagem, curativos, acompanhamento e assistência domiciliar.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Consultoria Empresarial
+","
+Apoio em gestão, vendas, processos, estratégia, expansão e melhoria de negócios.
+","""
+Profissionais e Serviços Especializados
+""",checked,,,,,,
+"
+Consultoria Médica
+","
+Orientação especializada, segunda opinião, acompanhamento clínico e suporte médico.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Consultoria Veterinária Rural
+","
+Atendimento e orientação técnica para saúde animal, manejo sanitário, reprodução e produtividade pecuária.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Consultoria Zootécnica
+","
+Planejamento de nutrição, manejo, reprodução e desempenho de rebanhos e sistemas de produção animal.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Controle de Acesso
+","
+Portarias, fechaduras eletrônicas, biometria, catracas e sistemas de entrada.
+","""
+Segurança e Monitoramento
+""",checked,,,,,,
+"
+Convites e Papelaria Personalizada
+","
+Criação e produção de convites, tags, lembranças e materiais personalizados.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Cooperativas
+","
+Organizações cooperativas voltadas a crédito, produção, consumo, agro, trabalho ou serviços.
+","""
+Serviços Públicos, Associações e Entidades
+""",checked,,,,,,
+"
+Cooperativas de Crédito
+","
+Instituições financeiras cooperativas com soluções para pessoas, empresas e produtores.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Copywriter
+","
+Textos persuasivos para anúncios, páginas, campanhas, redes sociais, vendas e comunicação de marca.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Corretores de Imóveis
+","
+Profissionais para compra, venda, locação, negociação e avaliação de imóveis.
+","""
+Imóveis e Moradia
+""",checked,,,,,,
+"
+Creche Pet
+","
+Espaço para recreação, socialização e cuidado de pets durante o dia.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Crédito Rural
+","
+Apoio para acesso a financiamentos, custeio, investimento, linhas de crédito e projetos rurais.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Criação de Sites
+","
+Desenvolvimento de sites institucionais, landing pages, lojas virtuais e páginas de venda.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Cuidadores de Idosos
+","
+Profissionais para acompanhamento, cuidado e assistência domiciliar a idosos.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Cursos para Concursos
+","
+Preparação para concursos públicos, vestibulares, Enem e processos seletivos.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Cursos Profissionalizantes
+","
+Capacitações técnicas, cursos rápidos e treinamentos voltados ao mercado de trabalho.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Decoração Infantil
+","
+Decoração temática, painéis, balões, mesas decoradas e ambientação para festas infantis.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Dedetização
+","
+Controle de pragas, insetos, cupins, baratas, ratos e limpeza sanitária de ambientes.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Delivery de Comida
+","
+Entrega de refeições, lanches, bebidas, sobremesas e comidas variadas.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Dentistas
+","
+Clínicas e profissionais de odontologia, limpeza, restauração, implantes, aparelhos e estética dental.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Desenvolvimento de Sistemas
+","
+Criação de softwares, plataformas, aplicativos e soluções digitais sob medida.
+","""
+Tecnologia
+""",checked,,,,,,
+"
+Design e Interiores
+","
+Planejamento de ambientes, decoração, escolha de materiais, móveis, iluminação e aproveitamento de espaços.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Designer Gráfico
+","
+Artes para redes sociais, impressos, catálogos, banners, folders e materiais digitais.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Despachante
+","
+Serviços de documentação, processos administrativos, regularizações e protocolos.
+","""
+Profissionais e Serviços Especializados
+""",checked,,,,,,
+"
+Despachante Veicular
+","
+Regularização, transferência, documentação, licenciamento e processos junto ao Detran.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Diarista e Faxina
+","
+Profissionais para limpeza doméstica, faxina pesada, organização e manutenção da casa.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+DJ
+","
+Discotecagem, animação musical, playlists e condução sonora para festas e eventos.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Docerias
+","
+Doces, bolos, sobremesas, brigadeiros, tortas e produtos de confeitaria.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Ecoturismo
+","
+Passeios em áreas naturais, trilhas, cachoeiras, experiências ecológicas e turismo de natureza.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Educação Financeira
+","
+Orientação sobre orçamento, organização financeira, dívidas, investimentos e planejamento.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Elétrica Técnica
+","
+Manutenção elétrica técnica em equipamentos, painéis, comandos e instalações específicas.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Eletricista
+","
+Instalações, reparos, manutenção elétrica, quadros, tomadas, iluminação e soluções residenciais ou comerciais.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Eletrodomésticos
+","
+Venda de geladeiras, fogões, máquinas de lavar, eletroportáteis e produtos para casa.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Empréstimos e Crédito Pessoal
+","
+Soluções de crédito para pessoas físicas, autônomos e empresas.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Encanador
+","
+Instalações e reparos hidráulicos, vazamentos, tubulações, registros, caixas d’água e manutenção geral.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Energia Solar
+","
+Projetos, venda, instalação e manutenção de sistemas fotovoltaicos residenciais, comerciais e rurais.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Engenharia Civil
+","
+Projetos, obras, laudos, cálculos, regularizações e acompanhamento técnico de construções.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Engenharia de Segurança do Trabalho
+","
+Laudos, treinamentos, programas e adequações para saúde e segurança ocupacional.
+","""
+Profissionais e Serviços Especializados
+""",checked,,,,,,
+"
+Engenharia Elétrica
+","
+Projetos elétricos, adequações, laudos, instalações e soluções técnicas em energia.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Engenharia Mecânica
+","
+Projetos, manutenção, laudos e soluções mecânicas para equipamentos, estruturas e processos.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Entidades Rurais
+","
+Sindicatos, associações e instituições ligadas ao agronegócio e produtores rurais.
+","""
+Serviços Públicos, Associações e Entidades
+""",checked,,,,,,
+"
+Entregas Rápidas
+","
+Transporte ágil de pequenos volumes, documentos, produtos e encomendas dentro da cidade.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Equipamentos Comerciais
+","
+Venda e manutenção de balcões, freezers, expositores, fornos, máquinas e equipamentos para comércio.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Equipamentos Industriais
+","
+Máquinas, ferramentas, equipamentos e soluções para produção, manutenção e operações industriais.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Escola de Idiomas
+","
+Cursos de inglês, espanhol e outros idiomas para crianças, jovens e adultos.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Escola e Colégio
+","
+Instituições de ensino infantil, fundamental, médio e educação básica.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Escolinhas Esportivas
+","
+Treinamento esportivo para crianças, jovens e adultos em diferentes modalidades.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Espaço para Eventos
+","
+Salões, chácaras, clubes e locais para festas, reuniões e confraternizações.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Esquadrias, Alumínio e Vidros
+","
+Fabricação e instalação de janelas, portas, boxes, fachadas, vidros e estruturas em alumínio.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Estética
+","
+Tratamentos estéticos faciais e corporais, cuidados com pele, beleza e bem-estar.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Estética Automotiva
+","
+Polimento, vitrificação, higienização interna, lavagem técnica e cuidados com veículos.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Eventos Turísticos
+","
+Programações, festivais, encontros e atividades voltadas a visitantes e moradores.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Experiências Rurais
+","
+Vivências no campo, turismo rural, visita a propriedades e experiências ligadas ao agro.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Fabricação Sob Medida
+","
+Produção de peças, estruturas, máquinas e soluções personalizadas para empresas e propriedades.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Faculdade
+","
+Instituições de ensino superior, graduação, pós-graduação, pesquisa e extensão.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Farmácia de Manipulação
+","
+Medicamentos manipulados, fórmulas personalizadas, cosméticos e suplementos prescritos.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Farmácia Veterinária
+","
+Medicamentos, suplementos e produtos de saúde animal.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Farmácias
+","
+Medicamentos, perfumaria, produtos de saúde, higiene, conveniência e orientação farmacêutica.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Ferramentas e Máquinas
+","
+Venda, aluguel e manutenção de ferramentas elétricas, máquinas, compressores e equipamentos.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Filmagem de Eventos
+","
+Registro em vídeo de festas, casamentos, formaturas, eventos corporativos e celebrações.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Filmmaker
+","
+Produção de vídeos, captação, edição e conteúdos audiovisuais para marcas, eventos e redes sociais.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Financiamento de Veículos
+","
+Financiamento para carros, motos, caminhonetes, caminhões e máquinas.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Financiamento Imobiliário
+","
+Crédito para compra, construção ou reforma de imóveis.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Fisioterapia
+","
+Reabilitação, tratamento de dores, pós-operatório, prevenção e recuperação física.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Floricultura
+","
+Flores, arranjos, buquês, plantas ornamentais, cestas e presentes especiais.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Fonoaudiologia
+","
+Atendimento para fala, audição, linguagem, voz e desenvolvimento infantil.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Food Trucks
+","
+Comida de rua, lanches, eventos gastronômicos e opções móveis de alimentação.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Fotografia
+","
+Ensaios, fotos comerciais, institucionais, publicitárias e registros profissionais.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Fotografia de Eventos
+","
+Registro fotográfico profissional de festas, eventos, casamentos, aniversários e solenidades.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Fretamento de Ônibus
+","
+Locação e fretamento de ônibus para viagens, eventos, empresas, escolas e grupos.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Fretes Urbanos
+","
+Transporte de móveis, mercadorias, pequenas cargas e entregas dentro da cidade.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Frigorífico
+","
+Abate, processamento, comercialização e serviços relacionados à cadeia de carnes.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Funilaria e Pintura
+","
+Reparos de lataria, pintura automotiva, recuperação de peças e estética veicular.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Garçons
+","
+Equipe de atendimento, recepção e serviço de mesa para eventos e festas.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Georreferenciamento Rural
+","
+Medição, mapeamento e regularização de imóveis rurais, áreas produtivas e propriedades.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Gesseiro e Drywall
+","
+Forros, sancas, divisórias, paredes, acabamentos e soluções em gesso e drywall.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Gestão de Redes Sociais
+","
+Planejamento, publicação, calendário editorial, interação e acompanhamento de redes sociais.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+GPS Agrícola
+","
+Venda, instalação, configuração e suporte para equipamentos de navegação e orientação agrícola.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Gráfica
+","
+Impressão de cartões, panfletos, banners, adesivos, catálogos, materiais promocionais e papelaria.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Grupos Comunitários
+","
+Coletivos, redes de apoio, grupos de convivência e iniciativas locais.
+","""
+Religião, Comunidade e Ações Sociais
+""",checked,,,,,,
+"
+Guias Turísticos
+","
+Acompanhamento, orientação e condução de visitantes em roteiros e pontos turísticos.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Guincho
+","
+Remoção e transporte de veículos em caso de pane, acidente ou emergência.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Hamburguerias
+","
+Hambúrgueres artesanais, combos, porções e opções de delivery.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Hidráulica
+","
+Serviços técnicos de instalação e manutenção de redes hidráulicas, bombas, encanamentos e reservatórios.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Hospedagem Pet
+","
+Locais para deixar cães e gatos durante viagens ou períodos de ausência.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Hotéis
+","
+Hospedagem, quartos, serviços de recepção, café da manhã e estrutura para visitantes.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Identidade Visual
+","
+Criação de logotipo, paleta de cores, materiais de marca e comunicação visual.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Igrejas e Instituições Religiosas
+","
+Templos, comunidades religiosas, celebrações, encontros e atividades de fé.
+","""
+Religião, Comunidade e Ações Sociais
+""",checked,,,,,,
+"
+Imobiliárias
+","
+Empresas de venda, aluguel, administração e intermediação de imóveis urbanos e rurais.
+","""
+Imóveis e Moradia
+""",checked,,,,,,
+"
+Influenciadores Locais
+","
+Criadores de conteúdo e perfis regionais para divulgação de marcas, produtos e serviços.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Informática
+","
+Serviços gerais de computadores, redes, notebooks, periféricos, programas e suporte técnico.
+","""
+Tecnologia
+""",checked,,,,,,
+"
+Instalação de Câmeras
+","
+Venda, instalação e manutenção de câmeras de segurança residenciais, comerciais e rurais.
+","""
+Segurança e Monitoramento
+""",checked,,,,,,
+"
+Instalação e Manutenção de Ar Condicionado
+","
+Instalação, limpeza, carga de gás, manutenção preventiva e corretiva de climatizadores.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Instituições de Apoio
+","
+Entidades que oferecem orientação, capacitação, suporte técnico e apoio institucional.
+","""
+Serviços Públicos, Associações e Entidades
+""",checked,,,,,,
+"
+Internet e Cabeamento
+","
+Instalação de cabos, pontos de rede, roteadores, internet residencial e comercial.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Investimentos
+","
+Assessoria, orientação e soluções para aplicações financeiras, renda fixa, renda variável e planejamento.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Irrigação Agrícola
+","
+Projetos, instalação e manutenção de pivôs, gotejamento, aspersão e sistemas de irrigação.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Jardinagem
+","
+Corte de grama, poda, paisagismo, manutenção de jardins e áreas verdes.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Joias e Semijoias
+","
+Venda de joias, semijoias, bijuterias, relógios e acessórios pessoais.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Laboratórios de Exames
+","
+Coleta e realização de exames laboratoriais, análises clínicas e testes.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Lanchonetes
+","
+Lanches, salgados, sucos, sanduíches e refeições rápidas.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Laudos e Vistorias Técnicas
+","
+Avaliações, inspeções, perícias, laudos de engenharia e análises técnicas de imóveis e obras.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Lava Jato
+","
+Lavagem simples, completa, higienização, limpeza interna e externa de veículos.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Lavanderia
+","
+Lavagem, secagem, passadoria e cuidados com roupas, peças especiais e enxovais.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Leilões Rurais
+","
+Organização, divulgação e intermediação de leilões de animais, máquinas, implementos e propriedades.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Limpeza de Caixa d’Água
+","
+Higienização e manutenção de caixas d’água residenciais, comerciais e rurais.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Limpeza Pós-Obra
+","
+Limpeza especializada após construções, reformas e obras comerciais ou residenciais.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Livraria
+","
+Venda de livros, materiais didáticos, religiosos, técnicos e literatura em geral.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Locução e Áudio
+","
+Gravação de voz, vinhetas, chamadas comerciais e materiais para rádio ou internet.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Logística Agro
+","
+Transporte e organização logística de grãos, insumos, máquinas e produtos rurais.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Loja de Presentes
+","
+Artigos para presente, decoração, utilidades e produtos criativos para datas especiais.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Loteamentos
+","
+Empresas e profissionais ligados à venda, divulgação e regularização de lotes.
+","""
+Imóveis e Moradia
+""",checked,,,,,,
+"
+Manutenção de Impressoras
+","
+Conserto, limpeza, configuração e manutenção de impressoras e multifuncionais.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Manutenção de Máquinas
+","
+Revisão, reparo, montagem e manutenção preventiva ou corretiva de máquinas e equipamentos.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Manutenção Residencial
+","
+Pequenos reparos, consertos, ajustes e manutenção geral em imóveis.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Máquinas Agrícolas
+","
+Venda, manutenção, locação e assistência para tratores, colheitadeiras, pulverizadores e implementos.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Maquininhas e Meios de Pagamento
+","
+Soluções para recebimento por cartão, Pix, links de pagamento e gestão de vendas.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Marmitarias
+","
+Marmitas, refeições prontas, comida caseira, executiva ou fitness.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Marmoraria
+","
+Bancadas, pias, soleiras, revestimentos e peças em mármore, granito e pedras.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Materiais de Construção
+","
+Lojas de cimento, areia, brita, ferramentas, acabamento e materiais para obras.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Mecânica de Carros
+","
+Manutenção preventiva e corretiva de automóveis, motores, freios, suspensão e sistemas mecânicos.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Médicos, Clínicas e Hospitais
+","
+Atendimento médico, consultas, clínicas, especialidades, pronto atendimento e serviços hospitalares.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Metalúrgica
+","
+Fabricação e reparos em estruturas metálicas, peças, grades, portões e componentes industriais.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Moda Feminina
+","
+Roupas, acessórios e produtos de moda voltados ao público feminino.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Moda Infantil
+","
+Roupas, calçados e acessórios para bebês, crianças e adolescentes.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Moda Masculina
+","
+Roupas, calçados e acessórios voltados ao público masculino.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Montador de Móveis
+","
+Montagem, desmontagem e ajustes de móveis residenciais e comerciais.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Motoboy
+","
+Entregas rápidas de documentos, encomendas, alimentos e pequenos volumes.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Motos e Peças para Motos
+","
+Oficinas, peças, acessórios e manutenção para motocicletas.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Móveis e Colchões
+","
+Venda de móveis, colchões, estofados, mesas, cadeiras e itens para residência.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Mudanças
+","
+Transporte residencial, comercial, desmontagem, montagem e carregamento de móveis.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Música e Instrumentos
+","
+Aulas de canto, instrumentos musicais, teoria musical e escolas de música.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Natação
+","
+Aulas de natação, hidroginástica, iniciação aquática e treinamento em piscina.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Nutricionista
+","
+Planos alimentares, acompanhamento nutricional, emagrecimento, performance e saúde.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Oficina Diesel
+","
+Manutenção de caminhonetes, caminhões, máquinas e motores a diesel.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+ONGs
+","
+Organizações sem fins lucrativos voltadas a causas sociais, ambientais, culturais ou comunitárias.
+","""
+Religião, Comunidade e Ações Sociais
+""",checked,,,,,,
+"
+Órgãos Públicos
+","
+Prefeitura, secretarias, autarquias, serviços públicos e unidades de atendimento ao cidadão.
+","""
+Serviços Públicos, Associações e Entidades
+""",checked,,,,,,
+"
+Óticas
+","
+Óculos de grau, óculos de sol, lentes, armações e serviços relacionados à saúde visual.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Padarias
+","
+Pães, bolos, quitandas, cafés, lanches e produtos de panificação.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Papelaria
+","
+Materiais escolares, escritório, impressão, cópias, embalagens e itens de papelaria.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Passeios e Trilhas
+","
+Roteiros, caminhadas, passeios guiados, aventura e experiências ao ar livre.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Peças Agrícolas
+","
+Comércio de peças, componentes, acessórios e reposição para máquinas e equipamentos agrícolas.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Peças Industriais
+","
+Venda, fabricação ou recuperação de peças para máquinas, motores, equipamentos e processos industriais.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Pedreiro
+","
+Serviços de construção, reforma, alvenaria, assentamento, reparos e pequenas obras.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Pequenos Reparos
+","
+Serviços gerais de manutenção, consertos simples, ajustes e reparos domésticos.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Perícia Técnica
+","
+Avaliações, laudos, vistorias e pareceres técnicos em diversas áreas.
+","""
+Profissionais e Serviços Especializados
+""",checked,,,,,,
+"
+Personal Trainer
+","
+Acompanhamento individualizado para treino, condicionamento físico, emagrecimento e performance.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Pesca e Lazer
+","
+Produtos, locais, serviços e experiências ligadas à pesca esportiva e recreativa.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Pesca Esportiva
+","
+Locais, estrutura, serviços e experiências voltadas à pesca recreativa e esportiva.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Pet Shop
+","
+Venda de rações, acessórios, brinquedos, higiene, medicamentos e produtos para animais.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Pet Sitter
+","
+Cuidadores que atendem pets em casa, com alimentação, passeio e companhia.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Pilates
+","
+Aulas e atendimentos para postura, mobilidade, fortalecimento e reabilitação.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Pintor
+","
+Pintura residencial, comercial, predial, interna, externa e acabamentos.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Piscineiro
+","
+Limpeza, tratamento químico e manutenção de piscinas residenciais e comerciais.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Pizzarias
+","
+Pizzas para consumo no local, retirada ou delivery.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Planejamento Financeiro
+","
+Organização financeira pessoal, empresarial, familiar ou rural.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Plotter
+","
+Impressão, recorte, adesivagem, plotagem, banners e materiais em grandes formatos.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Pneus e Alinhamento
+","
+Venda de pneus, alinhamento, balanceamento, cambagem e serviços relacionados.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Portões Eletrônicos
+","
+Instalação e manutenção de motores, controles, sensores e automatizadores de portões.
+","""
+Segurança e Monitoramento
+""",checked,,,,,,
+"
+Pousadas
+","
+Hospedagem em ambientes menores, aconchegantes, rurais ou turísticos.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Pré-moldados
+","
+Venda e instalação de peças pré-moldadas, estruturas de concreto, postes, placas e elementos construtivos.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Previdência Privada
+","
+Planos de previdência e soluções para aposentadoria e planejamento futuro.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Produção de Conteúdo
+","
+Fotos, vídeos, textos e materiais para redes sociais, campanhas e divulgação.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Produtos Veterinários
+","
+Venda de medicamentos, vacinas, suplementos, materiais e produtos voltados à saúde animal.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Projetos Residenciais
+","
+Elaboração de projetos para casas, reformas, ampliações e construções residenciais.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Projetos Sociais
+","
+Projetos de inclusão, educação, esporte, cultura, assistência e desenvolvimento social.
+","""
+Religião, Comunidade e Ações Sociais
+""",checked,,,,,,
+"
+Proteção Veicular
+","
+Associações e serviços de proteção para carros, motos, caminhonetes e veículos comerciais.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Psicólogos
+","
+Atendimento psicológico individual, infantil, familiar, empresarial e terapias.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Pulverização Aérea
+","
+Aplicação aérea de defensivos, fertilizantes foliares e produtos agrícolas em lavouras.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Quadras e Campos
+","
+Locação de quadras, campos, arenas esportivas e espaços para práticas coletivas.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Rações e Nutrição Animal
+","
+Rações, suplementos, minerais e orientação nutricional para animais de produção e companhia.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Rações para Pets
+","
+Venda de rações, petiscos, suplementos e alimentos para cães, gatos e outros animais.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Rastreamento Veicular
+","
+Monitoramento de veículos, motos, caminhões, máquinas e frotas.
+","""
+Segurança e Monitoramento
+""",checked,,,,,,
+"
+Recreação Infantil
+","
+Atividades recreativas, brincadeiras, monitores e entretenimento para crianças.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Recursos Humanos
+","
+Recrutamento, seleção, treinamentos, folha, clima organizacional e gestão de pessoas.
+","""
+Profissionais e Serviços Especializados
+""",checked,,,,,,
+"
+Redes e Wi-Fi
+","
+Instalação e manutenção de redes, internet, roteadores, cabeamento e pontos de acesso.
+","""
+Tecnologia
+""",checked,,,,,,
+"
+Reforço Escolar
+","
+Apoio pedagógico para melhorar o desempenho escolar e acompanhar conteúdos específicos.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Reformas Residenciais
+","
+Reformas, melhorias, adaptações e serviços de acabamento em casas e apartamentos.
+","""
+Serviços Residenciais
+""",checked,,,,,,
+"
+Refrigeração Comercial
+","
+Manutenção de freezers, balcões refrigerados, câmaras frias e equipamentos de refrigeração.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Refrigeração Industrial
+","
+Projetos, instalação e manutenção de câmaras frias, sistemas de refrigeração e equipamentos industriais.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Regularização de Imóveis
+","
+Serviços de documentação, escrituras, averbações, registros e regularizações.
+","""
+Imóveis e Moradia
+""",checked,,,,,,
+"
+Restaurantes
+","
+Estabelecimentos para refeições completas, almoço, jantar, comida caseira ou pratos especiais.
+","""
+Gastronomia
+""",checked,,,,,,
+"
+Roupas e Moda
+","
+Lojas de vestuário casual, social, profissional, moda country e acessórios.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Saúde Ocupacional
+","
+Exames admissionais, demissionais, periódicos, laudos e medicina do trabalho.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Segurança Digital
+","
+Proteção de dados, antivírus, backup, controle de acesso e segurança da informação.
+","""
+Tecnologia
+""",checked,,,,,,
+"
+Segurança Privada
+","
+Empresas e profissionais de vigilância, rondas, eventos e proteção patrimonial.
+","""
+Segurança e Monitoramento
+""",checked,,,,,,
+"
+Segurança Residencial
+","
+Soluções para proteção de casas, condomínios, chácaras e propriedades.
+","""
+Segurança e Monitoramento
+""",checked,,,,,,
+"
+Seguro e Proteção Patrimonial
+","
+Soluções para proteção de imóveis, veículos, empresas, equipamentos e patrimônio.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Seguro Empresarial
+","
+Proteção para empresas, comércios, estoques, equipamentos e responsabilidade civil.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Seguro Rural
+","
+Proteção para lavouras, máquinas, propriedades, animais e riscos da atividade agropecuária.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Seguros de Vida, Veículos e Residenciais
+","
+Corretores e empresas de seguros para vida, automóveis, casas e bens pessoais.
+","""
+Serviços Financeiros, Seguros
+""",checked,,,,,,
+"
+Sementes e Mudas
+","
+Fornecimento de sementes, mudas, variedades agrícolas e materiais para implantação de culturas.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Serralheria
+","
+Portões, grades, estruturas metálicas, corrimãos, alambrados e serviços em metal.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Serviços Comunitários
+","
+Atendimentos, programas, campanhas e serviços voltados à comunidade local.
+","""
+Serviços Públicos, Associações e Entidades
+""",checked,,,,,,
+"
+Serviços Contábeis
+","
+Contabilidade, abertura de empresas, impostos, folha de pagamento, declarações e gestão fiscal.
+","""
+Profissionais e Serviços Especializados
+""",checked,,,,,,
+"
+Serviços Jurídicos
+","
+Advocacia, orientação legal, contratos, processos, consultoria e representação jurídica.
+","""
+Profissionais e Serviços Especializados
+""",checked,,,,,,
+"
+Silos e Armazéns
+","
+Estruturas, equipamentos e serviços para armazenagem, secagem e conservação de grãos.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Sindicatos
+","
+Representação de trabalhadores, produtores, empresas ou categorias profissionais.
+","""
+Serviços Públicos, Associações e Entidades
+""",checked,,,,,,
+"
+Sistemas de Gestão
+","
+Implantação e suporte para ERP, controle financeiro, estoque, vendas e gestão empresarial.
+","""
+Tecnologia
+""",checked,,,,,,
+"
+Social Media
+","
+Gestão de redes sociais, planejamento de conteúdo, postagens e relacionamento digital.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Solda
+","
+Serviços de soldagem, reparos, fabricação de peças, reforços estruturais e manutenção metálica.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Som e Acessórios Automotivos
+","
+Instalação de som, multimídia, alarmes, câmeras, películas e acessórios veiculares.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Som e Iluminação
+","
+Equipamentos de áudio, iluminação cênica, painéis, estruturas e operação técnica.
+","""
+Festas e Eventos
+""",checked,,,,,,
+"
+Spa e Massagem
+","
+Relaxamento, massagens terapêuticas, day spa e cuidados com bem-estar.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Starlink
+","
+Instalação, configuração e suporte para internet via satélite Starlink.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Studio de Musculação
+","
+Espaços menores e personalizados para musculação, treino funcional e acompanhamento físico.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Supermercados e Mercearias
+","
+Comércio de alimentos, bebidas, produtos de limpeza, higiene e itens do dia a dia.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Suporte Técnico em Informática
+","
+Manutenção de computadores, notebooks, impressoras, redes e equipamentos.
+","""
+Tecnologia
+""",checked,,,,,,
+"
+Táxi e Motorista Particular
+","
+Transporte de passageiros, corridas locais, viagens e atendimento sob demanda.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Táxi Pet
+","
+Transporte especializado para levar animais a clínicas, banho e tosa ou viagens.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Teatro e Artes
+","
+Aulas, oficinas, apresentações e atividades ligadas a teatro, artes visuais e expressão cultural.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Técnico em Câmeras e Alarmes
+","
+Instalação e manutenção técnica de câmeras, alarmes, sensores e sistemas de segurança.
+","""
+Serviços Técnicos
+""",checked,,,,,,
+"
+Tecnologia para Empresas
+","
+Soluções digitais, automação, infraestrutura e suporte para empresas e profissionais.
+","""
+Tecnologia
+""",checked,,,,,,
+"
+Telas e Alambrados
+","
+Instalação de telas, cercamentos, alambrados, grades e proteções para imóveis e áreas rurais.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Telhados e Coberturas
+","
+Construção, reforma e manutenção de telhados, coberturas metálicas e estruturas.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Terapias Integrativas
+","
+Acupuntura, massoterapia, quiropraxia, reiki, terapias naturais e complementares.
+","""
+Saúde e bem-estar
+""",checked,,,,,,
+"
+Terraplanagem
+","
+Serviços com máquinas para nivelamento, preparação de terrenos, estradas e áreas de construção.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Topografia
+","
+Levantamentos, medições, marcações de obra, mapas, áreas e apoio técnico para projetos.
+","""
+Construção, Energia e Engenharia
+""",checked,,,,,,
+"
+Tradução e Intérprete
+","
+Tradução de documentos, textos, reuniões, eventos e atendimento especializado.
+","""
+Profissionais e Serviços Especializados
+""",checked,,,,,,
+"
+Tráfego Pago
+","
+Criação e gestão de anúncios no Google, Instagram, Facebook e outras plataformas.
+","""
+Marketing e Mídia
+""",checked,,,,,,
+"
+Transportadoras
+","
+Empresas de transporte de cargas regionais, estaduais e interestaduais.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Transporte Escolar
+","
+Transporte de estudantes com rotas definidas, regularidade e segurança.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Transporte Executivo
+","
+Motoristas e veículos para viagens, reuniões, eventos e atendimento corporativo.
+","""
+Transporte, Fretes e Logística
+""",checked,,,,,,
+"
+Transporte Rural
+","
+Fretes e transporte de grãos, insumos, animais, máquinas e produtos agropecuários.
+","""
+Agronegócios
+""",checked,,,,,,
+"
+Transporte Turístico
+","
+Transporte para passeios, eventos, hotéis, pontos turísticos e viagens em grupo.
+","""
+Turismo e Experiências
+""",checked,,,,,,
+"
+Treinamento Funcional
+","
+Aulas e programas de exercícios com foco em mobilidade, força, resistência e condicionamento.
+","""
+Clubes, Esportes e Lazer
+""",checked,,,,,,
+"
+Treinamentos Educacionais
+","
+Capacitações, palestras, cursos e atividades de formação para estudantes e profissionais.
+","""
+Educação e Cultura
+""",checked,,,,,,
+"
+Troca de Óleo
+","
+Troca de óleo, filtros, lubrificantes e manutenção preventiva.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Usinagem
+","
+Fabricação e recuperação de peças por torno, fresa, ajustes mecânicos e processos de precisão.
+","""
+Indústria, Máquinas e Equipamentos
+""",checked,,,,,,
+"
+Utilidades Domésticas
+","
+Produtos para casa, cozinha, organização, limpeza, decoração e uso cotidiano.
+","""
+Comércio Local
+""",checked,,,,,,
+"
+Venda de Carros
+","
+Compra, venda, intermediação e negociação de veículos novos e usados.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Venda de Imóveis
+","
+Divulgação, negociação e intermediação de imóveis residenciais, comerciais, urbanos e rurais.
+","""
+Imóveis e Moradia
+""",checked,,,,,,
+"
+Veterinário em Domicílio
+","
+Atendimento veterinário realizado na casa do tutor, com consultas e orientações.
+","""
+Pet Shop e Serviços para Pets
+""",checked,,,,,,
+"
+Vigilância e Monitoramento
+","
+Serviços de acompanhamento remoto, rondas, alarmes monitorados e atendimento de ocorrências.
+","""
+Segurança e Monitoramento
+""",checked,,,,,,
+"
+Vistoria Veicular
+","
+Vistoria, inspeção e regularização documental de veículos.
+","""
+Serviços para Veículos
+""",checked,,,,,,
+"
+Vistorias de Imóveis
+","
+Vistorias de entrada, saída, conservação, entrega de obra e documentação de imóveis.
+","""
+Imóveis e Moradia
+""",checked,,,,,,
+"
+Voluntariado
+","
+Oportunidades e grupos para participação voluntária em ações, campanhas e projetos.
+","""
+Religião, Comunidade e Ações Sociais
+""",checked,,,,,,
+"
+Workshops e Imersões
+","
+Eventos de curta duração com foco em aprendizado prático, desenvolvimento e capacitação intensiva.
+","""Desenvolvimento
+  Pessoal e Profissional""",checked,,,,,,
+Coaching Pessoal,"Acompanhamento voltado para metas pessoais, autoconhecimento, hábitos, organização e evolução individual.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Coaching Profissional,"Desenvolvimento de carreira, liderança, performance, produtividade e posicionamento profissional.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Consultoria de Imagem Profissional,"Orientação sobre postura, apresentação pessoal, imagem, comunicação e posicionamento profissional.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Cursos de Liderança,"Capacitações para líderes, gestores, coordenadores e pessoas que desejam desenvolver liderança.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Cursos de Vendas,"Treinamentos para melhorar técnicas de venda, negociação, atendimento e relacionamento com clientes.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Cursos Livres,"Cursos de curta duração voltados ao desenvolvimento pessoal, profissional, técnico ou comportamental.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Desenvolvimento de Lideranças,"Programas para formar líderes, melhorar gestão de equipes e desenvolver cultura organizacional.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Educação Financeira Pessoal,"Cursos e mentorias sobre organização financeira, orçamento, dívidas, planejamento e investimentos básicos.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Empreendedorismo,"Cursos, mentorias e treinamentos para quem deseja abrir, organizar ou expandir um negócio.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Gestão de Pessoas,"Treinamentos e consultorias sobre equipes, comunicação interna, clima organizacional e relacionamento no trabalho.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Inteligência Emocional,"Desenvolvimento de habilidades emocionais, autocontrole, relacionamento interpessoal e equilíbrio pessoal.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Mentoria para Empreendedores,"Acompanhamento para empresários, autônomos e profissionais que buscam melhorar seus negócios.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Mentoria Profissional,"Orientação individual ou em grupo para carreira, negócios, liderança, tomada de decisão e crescimento profissional.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Oratória e Comunicação,"Cursos, mentorias e treinamentos para falar melhor em público, apresentar ideias e se comunicar com clareza.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Orientação de Carreira,"Apoio para escolha profissional, transição de carreira, recolocação, currículo e planejamento de futuro.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Palestrantes,"Profissionais que realizam palestras para empresas, escolas, eventos, equipes e instituições.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Preparação para Entrevistas,"Orientação para entrevistas de emprego, apresentação profissional e processos seletivos.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Produtividade e Organização,"Métodos e treinamentos para melhorar rotina, foco, gestão do tempo, planejamento e execução.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Treinamentos Empresariais,"Capacitações para equipes em vendas, atendimento, liderança, comunicação, gestão e comportamento profissional.",Desenvolvimento Pessoal e Profissional,checked,,,,,,
+Workshops e Imersões,"Eventos de curta duração com foco em aprendizado prático, desenvolvimento e capacitação intensiva.",Desenvolvimento Pessoal e Profissional,checked,,,,,,

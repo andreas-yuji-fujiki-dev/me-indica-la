@@ -1,0 +1,429 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum ProviderStatus {
+  PENDING
+  APPROVED
+  REJECTED
+  SUSPENDED
+}
+
+enum PlanType {
+  FREE
+  BASIC
+  PREMIUM
+  ENTERPRISE
+}
+
+enum UserRole {
+  USER
+  PROVIDER
+  ADMIN
+  MODERATOR
+}
+
+enum State {
+  AC
+  AL
+  AP
+  AM
+  BA
+  CE
+  DF
+  ES
+  GO
+  MA
+  MT
+  MS
+  MG
+  PA
+  PB
+  PR
+  PE
+  PI
+  RJ
+  RN
+  RS
+  RO
+  RR
+  SC
+  SP
+  SE
+  TO
+}
+
+// USUÁRIO BASE
+model User {
+  id String @id @default(cuid())
+
+  email    String  @unique
+  phone    String? @unique
+  password String
+
+  name String
+  slug String @unique
+
+  avatarUrl String?
+
+  cityId String?
+  city   City?   @relation(fields: [cityId], references: [id], onDelete: SetNull)
+
+  role            UserRole @default(USER)
+  isActive        Boolean  @default(true)
+  isEmailVerified Boolean  @default(false)
+  isPhoneVerified Boolean  @default(false)
+
+  receiveNewsletter Boolean @default(false)
+  receivePromotions Boolean @default(false)
+
+  lastLoginAt DateTime?
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  // Relacionamentos
+  providerProfile   Provider?
+  favoriteProviders FavoriteProvider[]
+  favoriteServices  FavoriteService[]
+  reviews           Review[]
+  eventsCreated     Event[]            @relation("UserEvents")
+  eventsSaved       SavedEvent[]
+  notifications     Notification[]
+
+  @@index([email])
+  @@index([slug])
+  @@index([role])
+}
+
+// PERFIL DO PRESTADOR
+model Provider {
+  id String @id @default(cuid())
+
+  userId String @unique
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  description String?
+  keywords    String[]
+
+  whatsappBusiness String?
+  instagram        String?
+  website          String?
+
+  address     String?
+  coordinates Json?
+
+  logoUrl         String?
+  coverImageUrl   String?
+  businessLicense String?
+
+  averageRating Float @default(0)
+  totalReviews  Int   @default(0)
+
+  viewsCount      Int @default(0)
+  whatsappClicks  Int @default(0)
+  instagramClicks Int @default(0)
+  websiteClicks   Int @default(0)
+
+  isActive   Boolean @default(true)
+  isVerified Boolean @default(false)
+
+  isFeaturedHome     Boolean @default(false)
+  isFeaturedCategory Boolean @default(false)
+  featuredPriority   Int     @default(0)
+
+  isAdvertiser Boolean @default(false)
+
+  status        ProviderStatus @default(PENDING)
+  plan          PlanType       @default(FREE)
+  planExpiresAt DateTime?
+
+  businessHours Json?
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  // Relacionamentos
+  services      ProviderService[]
+  reviews       Review[]
+  galleryImages ProviderGallery[]
+  ads           Ad[]
+  events        Event[]            @relation("ProviderEvents")
+  favoritedBy   FavoriteProvider[]
+  City          City?              @relation(fields: [cityId], references: [id])
+  cityId        String?
+
+  @@index([userId])
+  @@index([status])
+  @@index([isFeaturedHome])
+  @@index([featuredPriority])
+  @@index([isVerified])
+}
+
+// FAVORITOS - Prestadores
+model FavoriteProvider {
+  id String @id @default(cuid())
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  providerId String
+  provider   Provider @relation(fields: [providerId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, providerId])
+  @@index([userId])
+  @@index([providerId])
+}
+
+// FAVORITOS - Serviços
+model FavoriteService {
+  id String @id @default(cuid())
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  serviceId String
+  service   Service @relation(fields: [serviceId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, serviceId])
+  @@index([userId])
+  @@index([serviceId])
+}
+
+// EVENTOS SALVOS
+model SavedEvent {
+  id String @id @default(cuid())
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  eventId String
+  event   Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, eventId])
+  @@index([userId])
+  @@index([eventId])
+}
+
+// NOTIFICAÇÕES
+model Notification {
+  id String @id @default(cuid())
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  title     String
+  message   String
+  type      String
+  isRead    Boolean @default(false)
+  metadata  Json?
+  actionUrl String?
+
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([isRead])
+  @@index([createdAt])
+}
+
+// CITY
+model City {
+  id        String   @id @default(cuid())
+  name      String
+  slug      String   @unique
+  state     State
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  providers Provider[]
+  events    Event[]
+  users     User[]
+
+  @@index([slug])
+}
+
+// CATEGORY
+model Category {
+  id          String    @id @default(cuid())
+  name        String
+  slug        String    @unique
+  description String?
+  icon        String?
+  imageUrl    String?
+  isActive    Boolean   @default(true)
+  isFeatured  Boolean   @default(false)
+  sortOrder   Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  deletedAt   DateTime?
+
+  services         ServiceCategory[]
+  providerRequests ProviderRequestCategory[]
+
+  @@index([slug])
+  @@index([isFeatured])
+}
+
+// SERVICE
+model Service {
+  id           String    @id @default(cuid())
+  name         String
+  slug         String    @unique
+  description  String?
+  keywords     String[]
+  isActive     Boolean   @default(true)
+  isFeatured   Boolean   @default(false)
+  isMostWanted Boolean   @default(false)
+  sortOrder    Int       @default(0)
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  deletedAt    DateTime?
+
+  categories       ServiceCategory[]
+  providers        ProviderService[]
+  providerRequests ProviderRequestService[]
+  favoritedBy      FavoriteService[]
+
+  @@index([slug])
+  @@index([isFeatured])
+  @@index([isMostWanted])
+}
+
+model ServiceCategory {
+  serviceId  String
+  categoryId String
+  service    Service  @relation(fields: [serviceId], references: [id], onDelete: Cascade)
+  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([serviceId, categoryId])
+}
+
+model ProviderService {
+  providerId String
+  serviceId  String
+  provider   Provider @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  service    Service  @relation(fields: [serviceId], references: [id], onDelete: Cascade)
+
+  @@id([providerId, serviceId])
+}
+
+model Review {
+  id         String   @id @default(cuid())
+  providerId String
+  provider   Provider @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  authorName String?
+  rating     Int
+  comment    String?
+  isApproved Boolean  @default(false)
+  createdAt  DateTime @default(now())
+
+  @@index([providerId])
+  @@index([userId])
+}
+
+model ProviderGallery {
+  id         String   @id @default(cuid())
+  providerId String
+  imageUrl   String
+  createdAt  DateTime @default(now())
+  provider   Provider @relation(fields: [providerId], references: [id], onDelete: Cascade)
+}
+
+model ProviderRequest {
+  id        String         @id @default(cuid())
+  name      String
+  whatsapp  String?
+  instagram String?
+  location  String?
+  message   String?
+  status    ProviderStatus @default(PENDING)
+  origin    String?
+  notes     String?
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+
+  services   ProviderRequestService[]
+  categories ProviderRequestCategory[]
+}
+
+model ProviderRequestService {
+  providerRequestId String
+  serviceId         String
+  providerRequest   ProviderRequest @relation(fields: [providerRequestId], references: [id], onDelete: Cascade)
+  service           Service         @relation(fields: [serviceId], references: [id], onDelete: Cascade)
+
+  @@id([providerRequestId, serviceId])
+}
+
+model ProviderRequestCategory {
+  providerRequestId String
+  categoryId        String
+  providerRequest   ProviderRequest @relation(fields: [providerRequestId], references: [id], onDelete: Cascade)
+  category          Category        @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([providerRequestId, categoryId])
+}
+
+model Ad {
+  id          String    @id @default(cuid())
+  providerId  String?
+  title       String
+  imageUrl    String
+  redirectUrl String?
+  position    String?
+  viewsCount  Int       @default(0)
+  clicksCount Int       @default(0)
+  isActive    Boolean   @default(true)
+  startsAt    DateTime?
+  endsAt      DateTime?
+  createdAt   DateTime  @default(now())
+  provider    Provider? @relation(fields: [providerId], references: [id], onDelete: SetNull)
+}
+
+model Event {
+  id            String   @id @default(cuid())
+  name          String
+  slug          String   @unique
+  description   String?
+  eventDate     DateTime
+  whatsapp      String?
+  instagram     String?
+  externalLink  String?
+  location      String?
+  coverImageUrl String?
+  cityId        String?
+  city          City?    @relation(fields: [cityId], references: [id], onDelete: SetNull)
+  isActive      Boolean  @default(true)
+  isSponsored   Boolean  @default(false)
+
+  createdByUserId String?
+  createdByUser   User?   @relation("UserEvents", fields: [createdByUserId], references: [id], onDelete: SetNull)
+
+  createdByProviderId String?
+  createdByProvider   Provider? @relation("ProviderEvents", fields: [createdByProviderId], references: [id], onDelete: SetNull)
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  savedBy SavedEvent[]
+
+  @@index([slug])
+  @@index([eventDate])
+}

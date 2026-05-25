@@ -1,0 +1,748 @@
+﻿Nome da Categoria,Descrição,Serviços,Prestadores,Destaque,Contador,Ativo?
+"
+Agronegócios
+","Empresas, profissionais e serviços ligados ao campo, produção rural, máquinas agrícolas, insumos, assistência técnica, armazenamento, transporte rural, nutrição animal, irrigação e soluções para propriedades rurais.","""
+Adubos, Insumos e Biológicos
+"",""
+Agricultura de Precisão
+"",""
+Análise de Solo
+"",""
+Assistência Técnica Rural
+"",""
+Auto Elétrica Agrícola
+"",""
+Cercas, Currais e Estruturas Rurais
+"",""
+Compra e Venda de Gado
+"",""
+Consultoria Agronômica
+"",""
+Consultoria Veterinária Rural
+"",""
+Consultoria Zootécnica
+"",""
+Crédito Rural
+"",""
+Frigorífico
+"",""
+Georreferenciamento Rural
+"",""
+GPS Agrícola
+"",""
+Irrigação Agrícola
+"",""
+Leilões Rurais
+"",""
+Máquinas Agrícolas
+"",""
+Peças Agrícolas
+"",""
+Produtos Veterinários
+"",""
+Pulverização Aérea
+"",""
+Rações e Nutrição Animal
+"",""
+Seguro Rural
+"",""
+Sementes e Mudas
+"",""
+Silos e Armazéns
+"",""
+Transporte Rural
+""","TIago,Gustavo,Deuzeli,Euzemario,ENERGY SOLUÇÕES SOLAR,Pedro Atílio,Ricardo",,25,checked
+"
+Clubes, Esportes e Lazer
+","Clubes,
+  academias, escolinhas esportivas, quadras, personal trainers, atividades
+  recreativas, espaços de lazer, dança, natação, artes marciais, entretenimento
+  e opções para aproveitar o tempo livre.","""
+Academia
+"",""
+Artes Marciais
+"",""
+Aulas de Dança
+"",""
+Ciclismo
+"",""
+Clubes
+"",""
+Escolinhas Esportivas
+"",""
+Natação
+"",""
+Personal Trainer
+"",""
+Pesca e Lazer
+"",""
+Quadras e Campos
+"",""
+Recreação Infantil
+"",""
+Studio de Musculação
+"",""
+Treinamento Funcional
+""","Paulo,Rafael",,13,checked
+"
+Comércio Local
+","Lojas, mercados, papelarias,
+  presentes, utilidades, roupas, calçados, acessórios, produtos variados e
+  estabelecimentos comerciais da cidade.","""
+Acessórios
+"",""
+Brinquedos
+"",""
+Calçados
+"",""
+Combustível
+"",""
+Eletrodomésticos
+"",""
+Floricultura
+"",""
+Joias e Semijoias
+"",""
+Livraria
+"",""
+Loja de Presentes
+"",""
+Moda Feminina
+"",""
+Moda Infantil
+"",""
+Moda Masculina
+"",""
+Móveis e Colchões
+"",""
+Papelaria
+"",""
+Roupas e Moda
+"",""
+Supermercados e Mercearias
+"",""
+Utilidades Domésticas
+"",""
+Óticas
+""",José,,18,checked
+"
+Construção, Energia e Engenharia
+","Engenheiros,
+  arquitetos, construtoras, materiais de construção, energia solar,
+  terraplanagem, topografia, projetos, reformas, empreiteiros, elétrica,
+  hidráulica e soluções para obras residenciais, comerciais e rurais.","""
+Arquitetura
+"",""
+Calhas e Rufos
+"",""
+Construtoras
+"",""
+Design e Interiores
+"",""
+Eletricista
+"",""
+Encanador
+"",""
+Energia Solar
+"",""
+Engenharia Civil
+"",""
+Engenharia Elétrica
+"",""
+Engenharia Mecânica
+"",""
+Esquadrias, Alumínio e Vidros
+"",""
+Gesseiro e Drywall
+"",""
+Hidráulica
+"",""
+Laudos e Vistorias Técnicas
+"",""
+Marmoraria
+"",""
+Materiais de Construção
+"",""
+Pedreiro
+"",""
+Pintor
+"",""
+Projetos Residenciais
+"",""
+Pré-moldados
+"",""
+Serralheria
+"",""
+Telas e Alambrados
+"",""
+Telhados e Coberturas
+"",""
+Terraplanagem
+"",""
+Topografia
+""",Mariana,,25,checked
+"
+Educação e Cultura
+","Escolas, cursos, aulas
+  particulares, reforço escolar, idiomas, música, dança, artes, centros
+  culturais, professores, capacitações profissionais e atividades educativas.","""
+Aulas Particulares
+"",""
+Autoescola
+"",""
+Cursos para Concursos
+"",""
+Cursos Profissionalizantes
+"",""
+Escola de Idiomas
+"",""
+Escola e Colégio
+"",""
+Faculdade
+"",""
+Música e Instrumentos
+"",""
+Reforço Escolar
+"",""
+Teatro e Artes
+"",""
+Treinamentos Educacionais
+""",Adriel,,11,checked
+"
+Festas e Eventos
+","Buffets,
+  cerimonialistas, decoração, som, iluminação, bandas, DJs, fotógrafos,
+  filmagem, aluguel de mesas, brinquedos, salões, bolos, doces e serviços para
+  festas e eventos.","""
+Aluguel de Mesas e Cadeiras
+"",""
+Animadores
+"",""
+Bandas e Músicos
+"",""
+Bartender
+"",""
+Bolos e Doces
+"",""
+Brinquedos Infláveis
+"",""
+Buffet
+"",""
+Cerimonialista
+"",""
+Churrasqueiro
+"",""
+Convites e Papelaria Personalizada
+"",""
+Decoração Infantil
+"",""
+DJ
+"",""
+Espaço para Eventos
+"",""
+Filmagem de Eventos
+"",""
+Fotografia de Eventos
+"",""
+Garçons
+"",""
+Som e Iluminação
+""","Sebastião,Ubiratan",,17,checked
+"
+Gastronomia
+","Restaurantes, bares,
+  lanchonetes, pizzarias, hamburguerias, marmitarias, cafeterias, docerias,
+  padarias, delivery, churrascarias, sorveterias e opções de alimentação.","""
+Açaí e Sorvetes
+"",""
+Bares
+"",""
+Cafeterias
+"",""
+Churrascarias
+"",""
+Comida Fitness e Saudável
+"",""
+Comida Japonesa
+"",""
+Delivery de Comida
+"",""
+Docerias
+"",""
+Food Trucks
+"",""
+Hamburguerias
+"",""
+Lanchonetes
+"",""
+Marmitarias
+"",""
+Padarias
+"",""
+Pizzarias
+"",""
+Restaurantes
+""",Marta,,15,checked
+"
+Imóveis e Moradia
+","Imobiliárias,
+  corretores, aluguel, venda de imóveis, chácaras, fazendas, loteamentos,
+  administração de imóveis, vistorias e avaliação imobiliária.","""
+Administração de Aluguéis
+"",""
+Aluguel de Imóveis
+"",""
+Avaliação Imobiliária
+"",""
+Chácaras e Fazendas à Venda
+"",""
+Corretores de Imóveis
+"",""
+Imobiliárias
+"",""
+Loteamentos
+"",""
+Regularização de Imóveis
+"",""
+Venda de Imóveis
+"",""
+Vistorias de Imóveis
+""","Daniel,Chico,Ze do Fole",,10,checked
+"
+Indústria, Máquinas e Equipamentos
+","Empresas industriais,
+  metalúrgicas, serralherias, manutenção de máquinas, equipamentos agrícolas,
+  equipamentos comerciais, peças industriais e fabricação sob medida.","""
+Automação Elétrica Industrial
+"",""
+Caldeiraria
+"",""
+Equipamentos Comerciais
+"",""
+Equipamentos Industriais
+"",""
+Fabricação Sob Medida
+"",""
+Ferramentas e Máquinas
+"",""
+Manutenção de Máquinas
+"",""
+Metalúrgica
+"",""
+Peças Industriais
+"",""
+Refrigeração Industrial
+"",""
+Solda
+"",""
+Usinagem
+""",Euripedes,,12,checked
+"
+Marketing e Mídia
+","Agências de marketing, social media, fotógrafos, videomakers, designers, tráfego pago, criação de sites, identidade visual, produção de conteúdo, comunicação empresarial e divulgação de marcas.","""
+Agência de Marketing
+"",""
+Assessoria de Imprensa
+"",""
+Comunicação Visual
+"",""
+Copywriter
+"",""
+Criação de Sites
+"",""
+Designer Gráfico
+"",""
+Filmmaker
+"",""
+Fotografia
+"",""
+Gestão de Redes Sociais
+"",""
+Gráfica
+"",""
+Identidade Visual
+"",""
+Influenciadores Locais
+"",""
+Locução e Áudio
+"",""
+Plotter
+"",""
+Produção de Conteúdo
+"",""
+Social Media
+"",""
+Tráfego Pago
+""","Maria,Weslley",,17,checked
+"
+Pet Shop e Serviços para Pets
+","Pet shops, banho e tosa,
+  veterinários, clínicas, rações, acessórios, adestradores, hotéis para pets,
+  cuidadores, transporte pet e serviços para animais de estimação.","""
+Adestramento
+"",""
+Banho e Tosa
+"",""
+Clínica Veterinária
+"",""
+Creche Pet
+"",""
+Farmácia Veterinária
+"",""
+Hospedagem Pet
+"",""
+Pet Shop
+"",""
+Pet Sitter
+"",""
+Rações para Pets
+"",""
+Táxi Pet
+"",""
+Veterinário em Domicílio
+""",Pedro,,11,checked
+"
+Profissionais e Serviços Especializados
+","Profissionais autônomos e prestadores especializados, como advogados, contadores, consultores, despachantes, corretores, técnicos, tradutores, assessores e outros serviços que exigem conhecimento específico.","""
+Consultoria Empresarial
+"",""
+Despachante
+"",""
+Engenharia de Segurança do Trabalho
+"",""
+Perícia Técnica
+"",""
+Recursos Humanos
+"",""
+Serviços Contábeis
+"",""
+Serviços Jurídicos
+"",""
+Tradução e Intérprete
+""",,,8,checked
+"
+Religião, Comunidade e Ações Sociais
+","Igrejas, instituições religiosas, grupos comunitários, ONGs, projetos sociais, campanhas, voluntariado e entidades assistenciais.","""
+Associações Comunitárias
+"",""
+Ações Sociais
+"",""
+Campanhas Solidárias
+"",""
+Grupos Comunitários
+"",""
+Igrejas e Instituições Religiosas
+"",""
+ONGs
+"",""
+Projetos Sociais
+"",""
+Voluntariado
+""","Alexandre,Ubiratan",,8,checked
+"
+Saúde e bem-estar
+","Clínicas, médicos, dentistas, psicólogos, fisioterapeutas, nutricionistas, terapeutas, farmácias, laboratórios, pilates, estética, massagens, terapias integrativas e serviços para qualidade de vida.","""
+Academia Terapêutica
+"",""
+Clínicas de Imagem
+"",""
+Consultoria de Amamentação
+"",""
+Consultoria de Enfermagem
+"",""
+Consultoria Médica
+"",""
+Cuidadores de Idosos
+"",""
+Dentistas
+"",""
+Estética
+"",""
+Farmácia de Manipulação
+"",""
+Farmácias
+"",""
+Fisioterapia
+"",""
+Fonoaudiologia
+"",""
+Laboratórios de Exames
+"",""
+Médicos, Clínicas e Hospitais
+"",""
+Nutricionista
+"",""
+Pilates
+"",""
+Psicólogos
+"",""
+Saúde Ocupacional
+"",""
+Spa e Massagem
+"",""
+Terapias Integrativas
+""",Ricardo,,20,checked
+"
+Segurança e Monitoramento
+","Empresas de segurança,
+  instalação de câmeras, alarmes, cercas elétricas, controle de acesso, portões
+  eletrônicos, rastreamento veicular e vigilância.","""
+Alarmes
+"",""
+Cerca Elétrica
+"",""
+Controle de Acesso
+"",""
+Instalação de Câmeras
+"",""
+Portões Eletrônicos
+"",""
+Rastreamento Veicular
+"",""
+Segurança Privada
+"",""
+Segurança Residencial
+"",""
+Vigilância e Monitoramento
+""",Rafael,,9,checked
+"
+Serviços Financeiros, Seguros
+","Bancos,
+  cooperativas de crédito, financeiras, corretores de seguros, consórcios,
+  empréstimos, investimentos, seguros, previdência, maquininhas de cartão e
+  soluções financeiras para pessoas e empresas.","""
+Bancos e Correspondentes Bancários
+"",""
+Consórcios
+"",""
+Consórcios e Financiamentos
+"",""
+Cooperativas de Crédito
+"",""
+Educação Financeira
+"",""
+Empréstimos e Crédito Pessoal
+"",""
+Financiamento de Veículos
+"",""
+Financiamento Imobiliário
+"",""
+Investimentos
+"",""
+Maquininhas e Meios de Pagamento
+"",""
+Planejamento Financeiro
+"",""
+Previdência Privada
+"",""
+Proteção Veicular
+"",""
+Seguro e Proteção Patrimonial
+"",""
+Seguro Empresarial
+"",""
+Seguros de Vida, Veículos e Residenciais
+""",Chinelinho,,16,checked
+"
+Serviços para Veículos
+","Oficinas mecânicas,
+  autoelétricas, borracharias, lava-jatos, funilarias, pintura, autopeças, som
+  automotivo, guincho, alinhamento, balanceamento, troca de óleo e serviços
+  para veículos.","""
+Alinhamento e Balanceamento
+"",""
+Aluguel de Veículos
+"",""
+Auto Elétrica Leve
+"",""
+Autopeças
+"",""
+Borracharia
+"",""
+Despachante Veicular
+"",""
+Estética Automotiva
+"",""
+Funilaria e Pintura
+"",""
+Guincho
+"",""
+Lava Jato
+"",""
+Mecânica de Carros
+"",""
+Motos e Peças para Motos
+"",""
+Oficina Diesel
+"",""
+Pneus e Alinhamento
+"",""
+Som e Acessórios Automotivos
+"",""
+Troca de Óleo
+"",""
+Venda de Carros
+"",""
+Vistoria Veicular
+""","Weslley,Euzemario,Duilio,Jose Mota",,18,checked
+"
+Serviços Públicos, Associações e Entidades
+","Sindicatos, associações comerciais, entidades rurais, órgãos públicos, conselhos, cooperativas, instituições de apoio e serviços comunitários.","""
+Associações Comerciais
+"",""
+Conselhos e Entidades de Classe
+"",""
+Cooperativas
+"",""
+Entidades Rurais
+"",""
+Instituições de Apoio
+"",""
+Serviços Comunitários
+"",""
+Sindicatos
+"",""
+Órgãos Públicos
+""",Deuzeli,,8,checked
+"
+Serviços Residenciais
+","Diaristas, faxineiras,
+  jardineiros, eletricistas, encanadores, pedreiros, pintores, montadores de
+  móveis, limpeza de caixa d’água, dedetização, piscineiros, manutenção
+  doméstica e reformas pequenas.","""
+Chaveiro
+"",""
+Dedetização
+"",""
+Diarista e Faxina
+"",""
+Jardinagem
+"",""
+Lavanderia
+"",""
+Limpeza de Caixa d’Água
+"",""
+Limpeza Pós-Obra
+"",""
+Manutenção Residencial
+"",""
+Montador de Móveis
+"",""
+Pequenos Reparos
+"",""
+Piscineiro
+"",""
+Reformas Residenciais
+""",,,12,checked
+"
+Serviços Técnicos
+","Técnicos em eletrônicos, assistência para celulares, computadores, eletrodomésticos, ar-condicionado, refrigeração, equipamentos, internet, câmeras, alarmes e manutenção técnica em geral.","""
+Ar Condicionado
+"",""
+Assistência Técnica em Eletrodomésticos
+"",""
+Assistência Técnica em Eletrônicos
+"",""
+Celulares e Informática
+"",""
+Comunicação via Rádio
+"",""
+Elétrica Técnica
+"",""
+Instalação e Manutenção de Ar Condicionado
+"",""
+Internet e Cabeamento
+"",""
+Manutenção de Impressoras
+"",""
+Refrigeração Comercial
+"",""
+Starlink
+"",""
+Técnico em Câmeras e Alarmes
+""","Gustavo,Chico,Sebastião",,12,checked
+"
+Tecnologia
+","Empresas e profissionais de
+  informática, desenvolvimento de sites e sistemas, suporte técnico, automação,
+  software, aplicativos, segurança digital, redes, manutenção de computadores e
+  soluções digitais para negócios.","""
+Aplicativos
+"",""
+Automação Comercial
+"",""
+Backup e Recuperação de Dados
+"",""
+Câmeras e Monitoramento Online
+"",""
+Desenvolvimento de Sistemas
+"",""
+Informática
+"",""
+Redes e Wi-Fi
+"",""
+Segurança Digital
+"",""
+Sistemas de Gestão
+"",""
+Suporte Técnico em Informática
+"",""
+Tecnologia para Empresas
+""","Reinaldo,Lucio,Leonardo",,11,checked
+"
+Transporte, Fretes e Logística
+","Fretes urbanos, mudanças, motoboys, transportadoras, transporte rural, carreto, entregas, táxi, motoristas particulares e logística para empresas.","""
+Carretos
+"",""
+Entregas Rápidas
+"",""
+Fretamento de Ônibus
+"",""
+Fretes Urbanos
+"",""
+Logística Agro
+"",""
+Motoboy
+"",""
+Mudanças
+"",""
+Transportadoras
+"",""
+Transporte Escolar
+"",""
+Transporte Executivo
+"",""
+Táxi e Motorista Particular
+""",,,11,checked
+"
+Turismo e Experiências
+","Hotéis, pousadas, guias, agências de turismo, passeios, experiências rurais, ecoturismo, trilhas, pesca, eventos turísticos, transporte turístico, gastronomia regional e atividades para moradores e visitantes.","""
+Agência de Viagens
+"",""
+Ecoturismo
+"",""
+Eventos Turísticos
+"",""
+Experiências Rurais
+"",""
+Guias Turísticos
+"",""
+Hotéis
+"",""
+Passeios e Trilhas
+"",""
+Pesca Esportiva
+"",""
+Pousadas
+"",""
+Transporte Turístico
+""",João,,10,checked
+"Desenvolvimento
+  Pessoal e Profissional","Mentores, coaches,
+  palestrantes, cursos, treinamentos, orientação de carreira, desenvolvimento
+  de liderança, comunicação, vendas, inteligência emocional, produtividade,
+  empreendedorismo e capacitações voltadas ao crescimento pessoal, profissional
+  e empresarial.","""
+Workshops e Imersões
+""",,,1,
+Desenvolvimento Pessoal e Profissional,,"Coaching Pessoal,Coaching Profissional,Consultoria de Imagem Profissional,Cursos de Liderança,Cursos de Vendas,Cursos Livres,Desenvolvimento de Lideranças,Educação Financeira Pessoal,Empreendedorismo,Gestão de Pessoas,Inteligência Emocional,Mentoria para Empreendedores,Mentoria Profissional,Oratória e Comunicação,Orientação de Carreira,Palestrantes,Preparação para Entrevistas,Produtividade e Organização,Treinamentos Empresariais,Workshops e Imersões",,,20,
