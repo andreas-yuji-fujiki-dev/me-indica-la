@@ -1,0 +1,116 @@
+import { PrismaService } from './prisma.service';
+
+export const mockPrisma = {
+  category: {
+    create: jest.fn(),
+    findMany: jest.fn(),
+    findFirst: jest.fn(),
+    findUnique: jest.fn(),
+    update: jest.fn(),
+    count: jest.fn(),
+    delete: jest.fn(),
+  },
+  service: {
+    create: jest.fn(),
+    findMany: jest.fn(),
+    findFirst: jest.fn(),
+    findUnique: jest.fn(),
+    update: jest.fn(),
+    count: jest.fn(),
+  },
+  provider: {
+    create: jest.fn(),
+    findMany: jest.fn(),
+    findFirst: jest.fn(),
+    findUnique: jest.fn(),
+    update: jest.fn(),
+    count: jest.fn(),
+  },
+  providerRequest: {
+    create: jest.fn(),
+    findMany: jest.fn(),
+    findFirst: jest.fn(),
+    findUnique: jest.fn(),
+    update: jest.fn(),
+    count: jest.fn(),
+    delete: jest.fn(),
+  },
+  review: {
+    create: jest.fn(),
+    findMany: jest.fn(),
+    findFirst: jest.fn(),
+    findUnique: jest.fn(),
+    update: jest.fn(),
+    count: jest.fn(),
+    delete: jest.fn(),
+    aggregate: jest.fn(),
+  },
+  ad: {
+    create: jest.fn(),
+    findMany: jest.fn(),
+    findUnique: jest.fn(),
+    update: jest.fn(),
+    delete: jest.fn(),
+    count: jest.fn(),
+  },
+  serviceCategory: {
+    findMany: jest.fn(),
+    count: jest.fn(),
+    deleteMany: jest.fn(),
+  },
+  providerService: {
+    findMany: jest.fn(),
+    count: jest.fn(),
+    deleteMany: jest.fn(),
+  },
+  providerRequestService: {
+    deleteMany: jest.fn(),
+  },
+  providerRequestCategory: {
+    deleteMany: jest.fn(),
+  },
+  favoriteProvider: {
+    create: jest.fn(),
+    findUnique: jest.fn(),
+    findMany: jest.fn(),
+    count: jest.fn(),
+    delete: jest.fn(),
+  },
+  favoriteService: {
+    create: jest.fn(),
+    findUnique: jest.fn(),
+    findMany: jest.fn(),
+    count: jest.fn(),
+    delete: jest.fn(),
+  },
+  event: {
+    create: jest.fn(),
+    findMany: jest.fn(),
+    findFirst: jest.fn(),
+    findUnique: jest.fn(),
+    update: jest.fn(),
+    count: jest.fn(),
+  },
+  city: {
+    create: jest.fn(),
+    findMany: jest.fn(),
+    findFirst: jest.fn(),
+    findUnique: jest.fn(),
+    update: jest.fn(),
+    count: jest.fn(),
+  },
+  user: {
+    create: jest.fn(),
+    findUnique: jest.fn(),
+    findFirst: jest.fn(),
+    update: jest.fn(),
+    count: jest.fn(),
+    findMany: jest.fn(),
+  },
+  $transaction: jest.fn((cb: any) => cb(mockPrisma)),
+};
+
+export const MockPrismaService = {
+  provide: PrismaService,
+  useValue: mockPrisma,
+};

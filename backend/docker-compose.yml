@@ -1,21 +1,38 @@
+version: '3.8'
+
 services:
   postgres:
-    image: postgres:17
-
+    image: postgres:17-alpine
     container_name: meindicala-postgres
-
-    restart: always
-
+    restart: unless-stopped
+    user: "1000:1000"  # non-root user
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
       POSTGRES_DB: meindicala
-
     ports:
-      - "5432:5432"
-
+      - "127.0.0.1:5432:5432"  # bind to localhost only
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    networks:
+      - internal
+    mem_limit: 512m
+    mem_reservation: 256m
+    cpu_shares: 512
+    security_opt:
+      - no-new-privileges:true
 
 volumes:
   postgres_data:
+    driver: local
+
+networks:
+  internal:
+    driver: bridge
+    internal: false  # allow external access to mapped ports

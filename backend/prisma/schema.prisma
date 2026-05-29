@@ -14,6 +14,12 @@ enum ProviderStatus {
   SUSPENDED
 }
 
+enum ProviderEditRequestStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
 enum PlanType {
   FREE
   BASIC
@@ -58,7 +64,7 @@ enum State {
   TO
 }
 
-// USUÁRIO BASE
+// base user
 model User {
   id String @id @default(cuid())
 
@@ -88,38 +94,40 @@ model User {
   updatedAt DateTime  @updatedAt
   deletedAt DateTime?
 
-  // Relacionamentos
-  providerProfile   Provider?
-  favoriteProviders FavoriteProvider[]
-  favoriteServices  FavoriteService[]
-  reviews           Review[]
-  eventsCreated     Event[]            @relation("UserEvents")
-  eventsSaved       SavedEvent[]
-  notifications     Notification[]
+  // relationships
+  providerProfile    Provider?
+  favoriteProviders  FavoriteProvider[]
+  favoriteServices   FavoriteService[]
+  favoriteCategories FavoriteCategory[]
+  reviews            Review[]
+  eventsCreated      Event[]            @relation("UserEvents")
+  eventsSaved        SavedEvent[]
+  notifications      Notification[]
 
   @@index([email])
   @@index([slug])
   @@index([role])
 }
 
-// PERFIL DO PRESTADOR
+// provider profile
 model Provider {
   id String @id @default(cuid())
 
   userId String @unique
   user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-  description String?
+  description String
   keywords    String[]
 
-  whatsappBusiness String?
+  whatsappBusiness String
   instagram        String?
   website          String?
 
-  address     String?
-  coordinates Json?
+  address     String
+  cityName    String?
+  cityState   String?
 
-  logoUrl         String?
+  logoUrl         String
   coverImageUrl   String?
   businessLicense String?
 
@@ -144,21 +152,27 @@ model Provider {
   plan          PlanType       @default(FREE)
   planExpiresAt DateTime?
 
-  businessHours Json?
+  businessHours Json
+
+  categoryId         String?
+  customCategory     String?
+  customServiceNames String[]
 
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
   deletedAt DateTime?
 
-  // Relacionamentos
+  // relationships
   services      ProviderService[]
   reviews       Review[]
   galleryImages ProviderGallery[]
   ads           Ad[]
   events        Event[]            @relation("ProviderEvents")
   favoritedBy   FavoriteProvider[]
-  City          City?              @relation(fields: [cityId], references: [id])
   cityId        String?
+  City          City?              @relation(fields: [cityId], references: [id])
+  category      Category?          @relation(fields: [categoryId], references: [id])
+  editRequests  ProviderEditRequest[]
 
   @@index([userId])
   @@index([status])
@@ -167,7 +181,32 @@ model Provider {
   @@index([isVerified])
 }
 
-// FAVORITOS - Prestadores
+// category
+model Category {
+  id          String    @id @default(cuid())
+  name        String
+  slug        String    @unique
+  description String?
+  icon        String?
+  imageUrl    String?
+  bannerUrl   String?
+  isActive    Boolean   @default(true)
+  isFeatured  Boolean   @default(false)
+  sortOrder   Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  deletedAt   DateTime?
+
+  services         ServiceCategory[]
+  providerRequests ProviderRequestCategory[]
+  favoritedBy      FavoriteCategory[]
+  providers        Provider[]
+
+  @@index([slug])
+  @@index([isFeatured])
+}
+
+// favorites - providers
 model FavoriteProvider {
   id String @id @default(cuid())
 
@@ -184,7 +223,7 @@ model FavoriteProvider {
   @@index([providerId])
 }
 
-// FAVORITOS - Serviços
+// favorites - services
 model FavoriteService {
   id String @id @default(cuid())
 
@@ -201,16 +240,32 @@ model FavoriteService {
   @@index([serviceId])
 }
 
-// EVENTOS SALVOS
+// favorites - categories
+model FavoriteCategory {
+  id String @id @default(cuid())
+
+  userId String
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  categoryId String
+  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@unique([userId, categoryId])
+  @@index([userId])
+  @@index([categoryId])
+}
+
+// saved events
 model SavedEvent {
   id String @id @default(cuid())
 
   userId String
   user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-  eventId String
-  event   Event  @relation(fields: [eventId], references: [id], onDelete: Cascade)
-
+  eventId   String
+  event     Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
   createdAt DateTime @default(now())
 
   @@unique([userId, eventId])
@@ -218,13 +273,11 @@ model SavedEvent {
   @@index([eventId])
 }
 
-// NOTIFICAÇÕES
+// notifications
 model Notification {
-  id String @id @default(cuid())
-
-  userId String
-  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
-
+  id        String  @id @default(cuid())
+  userId    String
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
   title     String
   message   String
   type      String
@@ -239,7 +292,7 @@ model Notification {
   @@index([createdAt])
 }
 
-// CITY
+// city
 model City {
   id        String   @id @default(cuid())
   name      String
@@ -256,29 +309,7 @@ model City {
   @@index([slug])
 }
 
-// CATEGORY
-model Category {
-  id          String    @id @default(cuid())
-  name        String
-  slug        String    @unique
-  description String?
-  icon        String?
-  imageUrl    String?
-  isActive    Boolean   @default(true)
-  isFeatured  Boolean   @default(false)
-  sortOrder   Int       @default(0)
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
-  deletedAt   DateTime?
-
-  services         ServiceCategory[]
-  providerRequests ProviderRequestCategory[]
-
-  @@index([slug])
-  @@index([isFeatured])
-}
-
-// SERVICE
+// service
 model Service {
   id           String    @id @default(cuid())
   name         String
@@ -426,4 +457,38 @@ model Event {
 
   @@index([slug])
   @@index([eventDate])
+}
+
+model ProviderEditRequest {
+  id         String                    @id @default(cuid())
+  providerId String
+  provider   Provider                  @relation(fields: [providerId], references: [id], onDelete: Cascade)
+  status     ProviderEditRequestStatus @default(PENDING)
+
+  // Snapshot of proposed changes
+  businessName       String?
+  description        String?
+  whatsappBusiness   String?
+  instagram          String?
+  website            String?
+  keywords           String[]
+  categoryId         String?
+  customCategory     String?
+  serviceIds         String[]
+  customServiceNames String[]
+  address            String?
+  cityId             String?
+  cityName           String?
+  cityState          String?
+  logoUrl            String?
+  coverImageUrl      String?
+  galleryImageUrls   String[]
+  businessHours      Json?
+
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  reviewedAt DateTime?
+
+  @@index([providerId])
+  @@index([status])
 }
