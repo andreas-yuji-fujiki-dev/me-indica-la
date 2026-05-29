@@ -1,6 +1,10 @@
 // API Configuration
 export const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:3001/api/v1';
+
+// Server-side: usa URL interna do Docker (evita passar pelo Nginx)
+export const SERVER_API_BASE_URL =
+  process.env.INTERNAL_API_URL || API_BASE_URL;
 export const API_TIMEOUT = 5000;
 
 // Endpoint paths

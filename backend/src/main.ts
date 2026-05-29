@@ -57,9 +57,10 @@ async function bootstrap() {
   // app.use(csurf({ cookie: { httpOnly: true, secure: process.env.NODE_ENV === 'production' } }));
 
   // CORS restritivo - apenas origens autorizadas
-  const allowedOrigins = configService.get<string>('CORS_ORIGIN')
-    ? configService.get<string>('CORS_ORIGIN')!.split(',').map(o => o.trim())
-    : ['http://localhost:3000', 'https://meindicala.com', 'https://me-indica-la-ten.vercel.app'];
+  const corsEnv = configService.get<string>('CORS_ORIGIN');
+  const allowedOrigins = corsEnv
+    ? corsEnv.split(',').map(o => o.trim())
+    : ['http://localhost:3000'];
 
   app.enableCors({
     origin: (origin, callback) => {

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import ProviderPageClient from './ProviderPageClient';
 
-const API_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:3001/api/v1';
+const API_URL = process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:3001/api/v1';
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://meindicala.com.br';
 
 type Props = { params: Promise<{ id: string }> };

@@ -1,7 +1,9 @@
 import type { MetadataRoute } from 'next';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://meindicala.com.br';
-const API_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:3001/api/v1';
+const API_URL = process.env.INTERNAL_API_URL
+  || process.env.NEXT_PUBLIC_API_BASE_URL
+  || 'http://localhost:3001/api/v1';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes: MetadataRoute.Sitemap = [
