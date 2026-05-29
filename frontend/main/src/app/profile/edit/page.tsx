@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { UserIcon, CameraIcon, CheckIcon, ExclamationTriangleIcon, XMarkIcon } from '@heroicons/react/24/outline';
 import { useAuth } from '@/context/AuthContext';
 import { UserAPI } from '@/services/api';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 const DELETE_PHRASE = 'apagar conta permanentemente';
 
@@ -119,7 +120,7 @@ export default function EditProfilePage() {
     }
   };
 
-  const currentAvatar = avatarPreview ?? user?.avatarUrl ?? null;
+  const currentAvatar = avatarPreview ?? normalizeImageUrl(user?.avatarUrl) ?? null;
 
   if (isLoading || !user) {
     return (

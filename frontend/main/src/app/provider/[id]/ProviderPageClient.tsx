@@ -13,6 +13,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { HeartIcon as SolidHeartIcon } from '@heroicons/react/24/solid';
 import { useAuth } from '@/context/AuthContext';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 export default function ProviderPageClient() {
   const params = useParams();
@@ -385,7 +386,7 @@ export default function ProviderPageClient() {
                     {(provider?.logoUrl || provider?.user?.avatarUrl) ? (
                       <div className="relative -mt-14 shrink-0">
                         <Image
-                          src={provider.logoUrl || provider.user.avatarUrl}
+                          src={normalizeImageUrl(provider.logoUrl || provider.user.avatarUrl)!}
                           alt={provider.user?.name}
                           width={80}
                           height={80}
@@ -589,7 +590,7 @@ export default function ProviderPageClient() {
                     ) : (
                       <img
                         key={galleryImages[galleryIndex]?.id}
-                        src={galleryImages[galleryIndex]?.imageUrl}
+                        src={normalizeImageUrl(galleryImages[galleryIndex]?.imageUrl) ?? undefined}
                         alt={`Foto ${galleryIndex + 1}`}
                         className="h-full w-full object-cover cursor-zoom-in"
                         onClick={() => setLightboxOpen(true)}
@@ -636,7 +637,7 @@ export default function ProviderPageClient() {
                             </div>
                           ) : (
                             <img
-                              src={img.imageUrl}
+                              src={normalizeImageUrl(img.imageUrl) ?? undefined}
                               alt={`Miniatura ${i + 1}`}
                               className="h-full w-full object-cover"
                               onError={() => setImgErrors((prev) => new Set(prev).add(img.id))}
@@ -847,7 +848,7 @@ export default function ProviderPageClient() {
                         <div className="flex items-center gap-3">
                           {review.user?.avatarUrl ? (
                             <Image
-                              src={review.user.avatarUrl}
+                              src={normalizeImageUrl(review.user.avatarUrl)!}
                               alt={review.user.name || review.authorName || 'Usuário'}
                               width={36}
                               height={36}
@@ -908,7 +909,7 @@ export default function ProviderPageClient() {
           </button>
 
           <img
-            src={galleryImages[galleryIndex]?.imageUrl}
+            src={normalizeImageUrl(galleryImages[galleryIndex]?.imageUrl) ?? undefined}
             alt={`Foto ${galleryIndex + 1}`}
             className="max-h-[90vh] max-w-[90vw] rounded-xl object-contain"
             onClick={(e) => e.stopPropagation()}

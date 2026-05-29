@@ -11,6 +11,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { useAuth } from '@/context/AuthContext';
 import { CategoryAPI, CityAPI, ProviderAPI, ProviderEditRequestAPI, ServiceAPI, UserAPI } from '@/services/api';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 const DAYS = [
   { key: 'mon', label: 'Segunda-feira' },
@@ -262,11 +263,12 @@ export default function ProviderRegisterClient() {
         }
         if (p.City) { setCityId(p.City.id); setCityName(p.City.name); setCityState(p.City.state ?? ''); }
       }
-      const logoUrl = p.logoUrl || p.user?.avatarUrl || null;
+      const logoUrl = normalizeImageUrl(p.logoUrl || p.user?.avatarUrl || null);
       if (logoUrl) { setExistingLogoUrl(logoUrl); setLogoPreview(logoUrl); }
-      if (p.coverImageUrl) { setExistingBannerUrl(p.coverImageUrl); setBannerPreview(p.coverImageUrl); }
+      const coverUrl = normalizeImageUrl(p.coverImageUrl);
+      if (coverUrl) { setExistingBannerUrl(coverUrl); setBannerPreview(coverUrl); }
       if ((p.galleryImages ?? []).length > 0) {
-        const urls = p.galleryImages.map((gi: any) => gi.imageUrl);
+        const urls = p.galleryImages.map((gi: any) => normalizeImageUrl(gi.imageUrl) ?? gi.imageUrl);
         setExistingGalleryUrls(urls);
         setGalleryPreviews(urls);
       }

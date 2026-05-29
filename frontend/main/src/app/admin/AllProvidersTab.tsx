@@ -11,6 +11,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline';
 import { ProviderAPI } from '@/services/api';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 const PAGE_SIZE = 15;
 
@@ -199,7 +200,7 @@ export default function AllProvidersTab() {
                     <td className="px-4 py-2.5">
                       <div className="flex items-center gap-2.5">
                         {avatar ? (
-                          <Image src={avatar} alt={name} width={28} height={28} className="h-7 w-7 rounded-full object-cover shrink-0" unoptimized />
+                          <Image src={normalizeImageUrl(avatar)!} alt={name} width={28} height={28} className="h-7 w-7 rounded-full object-cover shrink-0" unoptimized />
                         ) : (
                           <div className="h-7 w-7 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 text-xs font-bold shrink-0">
                             {name.charAt(0)}

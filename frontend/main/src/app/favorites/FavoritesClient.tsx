@@ -7,6 +7,7 @@ import { HeartIcon as OutlineHeartIcon } from '@heroicons/react/24/outline';
 import { HeartIcon as SolidHeartIcon } from '@heroicons/react/24/solid';
 import { useAuth } from '@/context/AuthContext';
 import { FavoriteAPI } from '@/services/api';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 export default function FavoritesClient() {
   const { user, isAuthenticated, isLoading } = useAuth();
@@ -140,7 +141,7 @@ export default function FavoritesClient() {
                       <div className="flex items-center gap-4 pr-8">
                         {(provider.logoUrl || provider.user?.avatarUrl) ? (
                           <Image
-                            src={provider.logoUrl || provider.user.avatarUrl}
+                            src={normalizeImageUrl(provider.logoUrl || provider.user.avatarUrl)!}
                             alt={provider.user?.name ?? 'Prestador'}
                             width={56}
                             height={56}

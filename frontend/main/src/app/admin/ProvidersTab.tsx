@@ -15,6 +15,7 @@ import {
   PhotoIcon,
 } from '@heroicons/react/24/outline';
 import { ProviderAPI, CityAPI, CategoryAPI, ServiceAPI } from '@/services/api';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 // ─── helpers ─────────────────────────────────────────────────────────────────
 
@@ -337,7 +338,7 @@ function Gallery({ images }: { images: { imageUrl: string }[] }) {
         <PhotoIcon className="h-4 w-4" /> Galeria ({images.length})
       </p>
       <div className="relative overflow-hidden rounded-xl bg-gray-100" style={{ aspectRatio: '16/5' }}>
-        <Image src={images[idx].imageUrl} alt={`Imagem ${idx + 1}`} fill className="object-cover" unoptimized />
+        <Image src={normalizeImageUrl(images[idx].imageUrl)!} alt={`Imagem ${idx + 1}`} fill className="object-cover" unoptimized />
         {images.length > 1 && (
           <>
             <button
@@ -475,7 +476,7 @@ function ProviderCard({
       {/* cover */}
       {cover && (
         <div className="relative h-24 w-full bg-gray-100">
-          <Image src={cover} alt="Banner" fill className="object-cover" unoptimized />
+          <Image src={normalizeImageUrl(cover)!} alt="Banner" fill className="object-cover" unoptimized />
         </div>
       )}
 
@@ -483,7 +484,7 @@ function ProviderCard({
         {/* header row */}
         <div className="flex items-center gap-3 mb-3">
           {logo ? (
-            <Image src={logo} alt={name} width={40} height={40} className="h-10 w-10 rounded-xl border border-gray-100 object-cover shrink-0" unoptimized />
+            <Image src={normalizeImageUrl(logo)!} alt={name} width={40} height={40} className="h-10 w-10 rounded-xl border border-gray-100 object-cover shrink-0" unoptimized />
           ) : (
             <div className="h-10 w-10 rounded-xl bg-blue-100 flex items-center justify-center text-blue-700 font-bold shrink-0">
               {name.charAt(0)}

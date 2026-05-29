@@ -7,6 +7,7 @@ import { SearchAPI, CategoryAPI, ServiceAPI, CityAPI, FavoriteAPI } from '@/serv
 import { HeartIcon as OutlineHeartIcon } from '@heroicons/react/24/outline';
 import { HeartIcon as SolidHeartIcon } from '@heroicons/react/24/solid';
 import { useAuth } from '@/context/AuthContext';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 const retryWithDelay = async (fn: () => Promise<any>, maxRetries = 0, delay = 500): Promise<any> => {
   try {
@@ -591,7 +592,7 @@ export default function SearchClient() {
                         <div className="flex items-center gap-3 sm:gap-4">
                           {(item.logoUrl || item.user?.avatarUrl) && (
                             <img
-                              src={item.logoUrl || item.user?.avatarUrl}
+                              src={normalizeImageUrl(item.logoUrl || item.user?.avatarUrl) ?? undefined}
                               alt={item.user?.name}
                               className="h-12 w-12 sm:h-14 sm:w-14 shrink-0 rounded-full object-cover"
                             />

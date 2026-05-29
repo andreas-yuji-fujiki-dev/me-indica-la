@@ -16,6 +16,7 @@ import {
 } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import { ReviewAPI, ProviderAPI } from '@/services/api';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 // ── helpers ──────────────────────────────────────────────────────────────────
 
@@ -190,7 +191,7 @@ function ProviderRow({ provider }: { provider: any }) {
         className="w-full flex items-center gap-3 px-4 py-3 hover:bg-gray-50 transition-colors"
       >
         {avatar ? (
-          <Image src={avatar} alt={name} width={36} height={36} className="h-9 w-9 rounded-full object-cover shrink-0" unoptimized />
+          <Image src={normalizeImageUrl(avatar)!} alt={name} width={36} height={36} className="h-9 w-9 rounded-full object-cover shrink-0" unoptimized />
         ) : (
           <div className="h-9 w-9 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 text-sm font-bold shrink-0">
             {name.charAt(0)}

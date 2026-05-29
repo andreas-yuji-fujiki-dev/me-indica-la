@@ -15,6 +15,7 @@ import {
 import { useAuth } from '@/context/AuthContext';
 import { useAuthActions } from '@/hooks/useAuthActions';
 import { ProviderAPI } from '@/services/api';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 interface ProviderSummary {
   id: string;
@@ -117,7 +118,7 @@ export default function AppHeader() {
                 >
                   {user?.avatarUrl ? (
                     <Image
-                      src={user.avatarUrl}
+                      src={normalizeImageUrl(user.avatarUrl)!}
                       alt={user.name ?? 'Avatar'}
                       width={36}
                       height={36}

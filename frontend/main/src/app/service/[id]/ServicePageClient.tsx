@@ -7,6 +7,7 @@ import { ServiceAPI, FavoriteAPI } from '@/services/api';
 import { ArrowLeftIcon, HeartIcon as OutlineHeartIcon } from '@heroicons/react/24/outline';
 import { HeartIcon as SolidHeartIcon } from '@heroicons/react/24/solid';
 import { useAuth } from '@/context/AuthContext';
+import { normalizeImageUrl } from '@/utils/imageUrl';
 
 export default function ServicePageClient() {
   const params = useParams();
@@ -224,7 +225,7 @@ export default function ServicePageClient() {
                       <div className="flex items-center gap-4">
                         {(providerItem.provider?.logoUrl || providerItem.provider?.user?.avatarUrl) ? (
                           <Image
-                            src={providerItem.provider.logoUrl || providerItem.provider.user.avatarUrl}
+                            src={normalizeImageUrl(providerItem.provider.logoUrl || providerItem.provider.user.avatarUrl)!}
                             alt={providerItem.provider?.user?.name ?? 'Prestador'}
                             width={52}
                             height={52}
